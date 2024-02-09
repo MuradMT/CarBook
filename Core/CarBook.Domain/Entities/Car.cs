@@ -12,4 +12,7 @@ public class Car
     public byte Luggage { get; set; }
     public string Fuel { get; set; }
     public string BigImageUrl { get; set; }
+    public CarFeature CarFeatures { get; set; }
+    public CarDescription CarDescriptions { get; set; }
+    public CarPrising CarPrisings { get; set; }
 }
