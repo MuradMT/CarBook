@@ -5,6 +5,10 @@ public class CarBookContext:DbContext
     {
         optionsBuilder.UseSqlServer(Infrastructure_Constants.connection_string);
     }
+    //protected override void OnModelCreating(ModelBuilder modelBuilder)
+    //{
+    //    base.OnModelCreating(modelBuilder);
+    //}
     public DbSet<About> Abouts { get; set; }
     public DbSet<Banner> Banners { get; set; }
     public DbSet<Brand> Brands { get; set; }

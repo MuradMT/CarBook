@@ -14,5 +14,5 @@ public class Car
     public string BigImageUrl { get; set; }
     public CarFeature CarFeatures { get; set; }
     public CarDescription CarDescriptions { get; set; }
-    public CarPricing CarPrisings { get; set; }
+    public CarPricing CarPricings { get; set; }
 }

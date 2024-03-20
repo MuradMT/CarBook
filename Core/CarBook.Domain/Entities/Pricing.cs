@@ -2,7 +2,7 @@
 
 public class Pricing
 {
-    public int PrisingID { get; set; }
+    public int PricingID { get; set; }
     public string Name { get; set; }
-    public CarPricing CarPrisings { get; set; }
+    public CarPricing CarPricings { get; set; }
 }
